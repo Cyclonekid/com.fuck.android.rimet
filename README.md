@@ -7,27 +7,20 @@
 [![Stars](https://img.shields.io/github/stars/Xposed-Modules-Repo/com.fuck.android.rimet?label=stars)](https://github.com/Xposed-Modules-Repo/com.fuck.android.rimet)
 [![Release](https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.fuck.android.rimet?include_prereleases)](https://github.com/Xposed-Modules-Repo/com.fuck.android.rimet/releases/latest)
 [![Download](https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.fuck.android.rimet/total)](https://github.com/Xposed-Modules-Repo/com.fuck.android.rimet/releases)
-[![Telegram](https://img.shields.io/badge/%E9%94%A4%E9%94%A4-2k+%20users-green?logo=telegram)](https://t.me/+m2sDh0iN8y41MjM1)
+[![Telegram](https://img.shields.io/badge/%E9%94%A4%E9%94%A4-10k+%20users-green?logo=telegram)](https://t.me/+m2sDh0iN8y41MjM1)
 
 </div>
 
 ## 自用机场推荐
-
-[![BYWAVE](https://user.by.ltd/templates/lagom/assets/img/logo/logo_big.png)](https://user.by.ltd/aff.php?aff=12669)
+- [**BYWAVE**](https://u.bws.lol/aff.php?aff=12669)
 
 ## 注意事项
 
 - 环境快照数据存储位置
-
-    | 版本号 | 数据存储位置                                               |
-    | ------ | ---------------------------------------------------------- |
-    | 0.4    | /sdcard/Android/data/com.fuck.android.rimet/files/profiles |
-    | 0.3.1  | /sdcard/Download/SmartisanProfile                          |
-    | 0.3    | /sdcard/Download/SmartisonProfile                          |
-    | 0.2    | /data/system/hammer_profiles                               |
-    | 0.1    | /sdcard/current-profile                                    |
-    
-    大版本号之间数据互不兼容且升级系统后数据可能也不兼容需重新创建环境快照
+  ```text
+  /sdcard/Android/data/com.fuck.android.rimet/files/profiles
+  ```
+- 升级Android系统版本号后数据可能不兼容需重新创建环境快照
 
 ## 支持的应用
 
@@ -43,16 +36,15 @@
 
 ## 使用方法
 
-1. **禁用对目标应用隐藏本模块（可选）**
-2. **允许锤锤自启动/关联唤醒之类的功能（重要）**
-3. 打开锤锤点击+号按钮创建环境快照
-4. 在锤锤列表中选择需要模拟环境快照
-5. 在模块管理器中激活锤锤并勾选推荐应用
-6. **强行停止目标应用并重新打开（重要）**
+1. **安装[Hide My Applist](https://modules.lsposed.org/module/com.tsng.hidemyapplist/)模块对目标应用隐藏锤锤（非常重要）**
+2. 打开锤锤点击+号按钮创建环境快照
+3. 在锤锤列表中选择需要模拟环境快照
+4. 在模块管理器中激活锤锤并勾选推荐应用
+5. 强行停止目标应用并重新打开
 
 ## 运行环境
 
-* 支持系统：Android 8 - 14
+* 支持系统：Android 8 - 15
 * 支持框架：LSPosed（推荐）/LSPatch（不推荐）/太极（不推荐）
 
 ## 问题排查
@@ -77,12 +69,12 @@
     错误码x 参考https://modules.lsposed.org/module/com.fuck.android.rimet#问题排查
     ```
 
-    | 错误码 | 含义                 | 解决方案                       |
-    | ------ | -------------------- | ------------------------------ |
-    | 1      | 不支持该应用         | 取消对目标应用开启模块         |
-    | 2      | 无法访问锤锤应用     | 是否对目标应用隐藏了模块？     |
-    | 3      | 无法获取环境快照数据 | 在锤锤列表中勾选一个环境快照   |
-    | 100    | 不预期的错误         | 加入群组提供相应的日志寻求帮助 |
+    | 错误码 | 含义         | 解决方案            |
+    |-----|------------|-----------------|
+    | 1   | 不支持该应用     | 取消对目标应用开启模块     |
+    | 2   | 无法访问锤锤应用   | 是否对目标应用隐藏了模块？   |
+    | 3   | 无法获取环境快照数据 | 在锤锤列表中勾选一个环境快照  |
+    | 100 | 不预期的错误     | 加入群组提供相应的日志寻求帮助 |
     
     如仍未解决可加入[TG讨论组](https://t.me/+m2sDh0iN8y41MjM1)寻求帮助，提问时参考[提问的艺术](#提问的艺术)部分
 
@@ -127,3 +119,5 @@ Android系统版本：13
 ## 捐赠名单
 
 @C_aa @ttd_xg @苏 @tiantianxiangshang12138 @HouhTung @🈚️ @DooDoo @Gimcy @佞臣 @BenBen @mf_lll @你个死胖子 @jenova.w @No_Name @abuzz1966 @@nijqu_niyqu @realki
+
+![Star History](https://api.star-history.com/svg?repos=Xposed-Modules-Repo/com.fuck.android.rimet&type=Date)
